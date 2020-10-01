@@ -6,5 +6,6 @@
     <string name="Label3">Genero Musical</string>
     <string name="Label4">Valor Entrada</string>
     <string name="Label5">Calificación</string>
+    <string name="subtitulo">Lista de conciertos asistidos</string>
 
 </resources>

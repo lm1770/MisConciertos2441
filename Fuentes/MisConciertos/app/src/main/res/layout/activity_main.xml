@@ -31,6 +31,7 @@
         </TextView>
 
         <EditText
+            android:id="@+id/IdArtistaTxt"
             android:layout_weight="1"
             android:textSize="@dimen/TamanioLetra"
             android:inputType="text"
@@ -108,6 +109,7 @@
         </TextView>
 
         <EditText
+            android:id="@+id/IdValorTxt"
             android:layout_weight="1"
             android:textSize="@dimen/TamanioLetra"
             android:inputType="number"
@@ -147,25 +149,34 @@
         android:orientation="horizontal"
         android:layout_height="wrap_content">
         <Button
+            android:text="Agregar"
+            android:id="@+id/agregarBtn"
             android:layout_width="match_parent"
-            android:text="@string/Label1"
             android:gravity="center_horizontal"
-            android:textSize="@dimen/TamanioLetra"
+            android:textAllCaps="false"
+            android:textSize="@dimen/TamanioBoton"
             android:layout_height="wrap_content">
         </Button>
-
 
         ></LinearLayout>
 
 
-
-
-
-
-
-
-
-
+    <TextView
+        android:layout_marginTop="@dimen/marginTopBase"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:text="@string/subtitulo"
+        android:textSize="@dimen/TamanioLetra"
+        android:textColor="@color/colorPrimary_light"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_height="wrap_content">
+    </TextView>
+    <ListView
+        android:id="@+id/IdConciertosLv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></ListView>
 
 
 </LinearLayout>
