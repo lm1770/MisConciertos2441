@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="marginTopBase">15dp</dimen>
+    <dimen name="letraTitulo">13sp</dimen>
+    <dimen name="TamanioLetra">16sp</dimen>
+
+</resources>

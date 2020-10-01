@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mis Conciertos</string>
+    <string name="titulo">Registro de conciertos asistidos</string>
+    <string name="Label1">Nombre Artista</string>
+    <string name="Label2">Fecha de Evento</string>
+    <string name="Label3">Genero Musical</string>
+    <string name="Label4">Valor Entrada</string>
+    <string name="Label5">Calificación</string>
+
+</resources>
